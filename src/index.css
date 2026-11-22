@@ -1,0 +1,31 @@
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #090909;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+
+
+/* QIL3D — Smooth Navigation Scrolling */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+section[id],
+footer[id] {
+  scroll-margin-top: 100px;
+}
